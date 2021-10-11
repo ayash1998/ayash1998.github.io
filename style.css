@@ -1,0 +1,294 @@
+li{
+  display:inline;
+  padding:10px;
+  font-size:40px;
+  color:black;
+  text-decoration: none;
+  cursor:pointer;
+}
+li:hover{
+  color:red;
+}
+
+#about-content{
+  display:none;
+}
+#education-content{
+  display:none;
+}
+#contact-content{
+  display:none;
+}
+#content{
+  font-family: 'Times New Roman', Times, serif;
+}
+* {box-sizing:border-box}
+
+
+.container {
+  width: 90%; 
+  background-color:lightgrey; 
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+  
+}
+
+.ps {width: 70%; background-color:brown;} 
+.wd {width: 40%; background-color:brown;} 
+.sql {width: 50%; background-color:brown;} 
+.com {width: 80%; background-color: brown;} 
+
+.text{
+  margin-inline-start: 90px;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+#ct {
+  position:absolute;
+  top: 61px;
+  right: 23px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-github{
+  color:black;
+  background:lightblue;
+}
+
+body {
+  background-image: url('https://drive.google.com/uc?export=view&id=1-ub1qraDCD52cOX3m32Eyuy80lCBEBD-');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0px;
+  color:burlywood;
+}
+
+#navigationbar{
+  background-color:brown;
+  list-style-type: none;
+  margin: -25px auto;
+  width:100%;
+}
+
+ul {
+  margin:0px;
+}
+
+.navs{
+  display:flex;
+  justify-content:center;
+}
+.two{
+ padding-top:20px;
+ margin: auto;
+}
+
+.table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ @media screen and (max-width: 1000px) {
+  .left, .main, .right {
+    width: 100%; 
+  }
+} 
+
+.two .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  #ct{
+  font-size:20px;
+  }
+}
+ @media screen and (max-width: 850px) {
+ #ct {
+    position: static;
+    left: 6px;
+    bottom:0px;
+    margin-top:5px;
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 23px;
+   font-weight: bold;
+  }
+  .navs{
+    flex-direction:column;
+  }
+  .profilepicture{
+    width:300px;
+  height:300px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+}
+
+@media screen and (max-width: 550px){
+  .logo{
+    display:none;
+  }
+}
+
+.w3-padding-32 {
+  padding-top: 32px !important;
+  text-align: center !important;
+}
+
+.alltypescontact{
+  /* width: 100px;
+  height: 100px; */
+  position:relative;
+  margin-left:100px;
+  margin-top:50px;
+   animation: myanime 8s; 
+   display:flex;
+   flex-direction:column;
+}
+
+ @keyframes myanime{
+  from {top: 300px;}
+  to {top: 0px;}
+} 
+
+.email p{
+   padding-top:0px;
+   margin-top:0px;
+   font-size:48px;
+  padding-bottom:20px;
+  word-break: break-all;  
+}
+
+.email i{
+  padding:0px;
+   margin:0px;
+   font-size:48px;
+}
+
+.phone p{
+  padding-top:0px;
+  margin-top:0px;
+  font-size:48px;
+ padding-bottom:20px;
+ word-break: break-all;  
+}
+
+.phone i{
+ padding:0px;
+  margin:0px;
+  font-size:48px;
+}
+
+.github p{
+  padding-top:0px;
+  margin-top:0px;
+  font-size:48px;
+ padding-bottom:20px;
+ word-break: break-all;  
+}
+
+.github a{
+ padding:0px;
+  margin:0px;
+  font-size:30px;
+}
+
+.linkedin p{
+  padding-top:0px;
+  margin-top:0px;
+  font-size:48px;
+ padding-bottom:20px;
+ word-break: break-all;  
+}
+
+.linkedin a{
+ padding:0px;
+  margin:0px;
+  font-size:30px;
+}
+
+.fade-in-text {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150px;
+  animation: fadeIn linear 8s;
+  -webkit-animation: fadeIn linear 8s;
+  -moz-animation: fadeIn linear 8s;
+  -o-animation: fadeIn linear 8s;
+  -ms-animation: fadeIn linear 8s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.fade-in-image {
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+  width:20rem;
+  height:20rem;
+  border-radius: 100%;
+  display:block;
+  padding-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
